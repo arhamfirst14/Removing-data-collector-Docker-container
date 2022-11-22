@@ -1,0 +1,16 @@
+
+    Jalankan perintah berikut untuk menghapus wadah Docker:
+
+    docker stop <Container_ID>
+    docker rm <Container_ID>
+
+    Di mana Container_ID adalah ID kontainer Docker.
+    Opsional: Jalankan perintah berikut untuk menghapus wadah secara paksa:
+
+    docker rm -f < Container_ID>
+
+    Jalankan perintah berikut untuk menghapus image Docker:
+
+    docker rmi -f <Image_name>
+
+    Di mana Image_name adalah nama gambar Docker.
